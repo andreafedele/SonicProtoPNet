@@ -18,13 +18,21 @@ for dataset_folder in ['Medley-solos-DB_split/', 'GTZAN_split/', 'esc50_split/']
     print("******************************************")
     print("******************************************")
 
-    path = '../datasets/' + dataset_folder 
+    path = '../dataset_generation/' + dataset_folder 
 
     for folder_split in os.listdir(path):
         if folder_split == '.DS_Store':
             continue
 
         ts_path = path + folder_split + '/ts/'
+        n_classes = int(folder_split.split("_")[2])
+        n_prototypes = 10 
+        n_neighbours_to_use = n_classes * n_prototypes
+        print("N. of prototypes", n_prototypes)
+        print("N. of classes", n_classes)
+        print("N. neighbours to use:", n_classes * n_prototypes)
+        
+        
 
         for type in ['cent', 'spect', 'all']:
             npz_to_open = ts_path + type + '.npz'
@@ -39,7 +47,7 @@ for dataset_folder in ['Medley-solos-DB_split/', 'GTZAN_split/', 'esc50_split/']
             if type == 'cent':
                 st = time.time() # start time
 
-                knn = KNeighborsTimeSeriesClassifier(n_neighbors=3, distance='euclidean')
+                knn = KNeighborsTimeSeriesClassifier(n_neighbors=n_neighbours_to_use, distance='euclidean')
                 knn.fit(X_train, y_train)
                 y_pred = knn.predict(X_test)
                 cr = classification_report(y_test, y_pred, output_dict=True)
@@ -55,7 +63,7 @@ for dataset_folder in ['Medley-solos-DB_split/', 'GTZAN_split/', 'esc50_split/']
             else:
                 st = time.time() # start time
                 
-                knn = KNeighborsClassifier(n_neighbors=3)
+                knn = KNeighborsClassifier(n_neighbors=n_neighbours_to_use)
                 knn.fit(X_train, y_train)
                 y_pred = knn.predict(X_test)
                 cr = classification_report(y_test, y_pred, output_dict=True)
@@ -68,3 +76,5 @@ for dataset_folder in ['Medley-solos-DB_split/', 'GTZAN_split/', 'esc50_split/']
                 print("Macro Accuracy:", cr['macro avg'])
                 print("Weighted Accuracy", cr['weighted avg'])
                 print("------------------------------------------------")
+                    
+print("Finished!")
