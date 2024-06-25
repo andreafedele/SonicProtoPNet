@@ -1,0 +1,220 @@
+load model from ./saved_models/vgg19/001_esc50_split_10/10_4push0.9000.pth
+model base architecture: vgg19
+experiment run: 001_esc50_split_10/
+test image to analyse../datasets/esc50_split_10/test/9/2-81112-A-34.wav
+Prototypes are chosen from 10 number of classes.
+Their class identities are: [0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3
+ 3 3 3 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 7
+ 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9]
+All prototypes connect most strongly to their respective classes.
+0 (8, 9)
+Predicted: 9
+Actual: 9
+***************************************************************
+***************************************************************
+Most activated 5 prototypes of this image:
+top 1 activated prototype for this image:
+prototype index: 87
+prototype class identity: 9
+activation value (similarity score): 4.656379699707031
+last layer connection with predicted class: 0.9823073744773865
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+top 2 activated prototype for this image:
+prototype index: 84
+prototype class identity: 9
+activation value (similarity score): 4.074509620666504
+last layer connection with predicted class: 0.9856088757514954
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+top 3 activated prototype for this image:
+prototype index: 82
+prototype class identity: 9
+activation value (similarity score): 4.071910858154297
+last layer connection with predicted class: 0.9932720065116882
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+top 4 activated prototype for this image:
+prototype index: 80
+prototype class identity: 9
+activation value (similarity score): 3.7064125537872314
+last layer connection with predicted class: 0.9875708818435669
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+top 5 activated prototype for this image:
+prototype index: 85
+prototype class identity: 9
+activation value (similarity score): 3.5792272090911865
+last layer connection with predicted class: 0.9892942309379578
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+***************************************************************
+Prototypes from top-3 classes:
+top 1 predicted class: 9
+logit of the class: -17.652126
+prototype index: 81
+prototype class identity: 9
+activation value (similarity score): 2.990408182144165
+last layer connection: 0.991761326789856
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 86
+prototype class identity: 9
+activation value (similarity score): 2.6299266815185547
+last layer connection: 0.9930621981620789
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 83
+prototype class identity: 9
+activation value (similarity score): 2.4545555114746094
+last layer connection: 0.9881094098091125
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 89
+prototype class identity: 9
+activation value (similarity score): 2.1762468814849854
+last layer connection: 0.9949151277542114
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 88
+prototype class identity: 9
+activation value (similarity score): 2.098702907562256
+last layer connection: 0.9943583607673645
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 2 predicted class: 2
+logit of the class: -41.059570
+prototype index: 14
+prototype class identity: 2
+activation value (similarity score): 1.0442413091659546
+last layer connection: 1.0508891344070435
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 15
+prototype class identity: 2
+activation value (similarity score): 0.726519763469696
+last layer connection: 1.0468883514404297
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 19
+prototype class identity: 2
+activation value (similarity score): 0.6398497223854065
+last layer connection: 1.0510663986206055
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 13
+prototype class identity: 2
+activation value (similarity score): 0.4985831081867218
+last layer connection: 1.0468370914459229
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 10
+prototype class identity: 2
+activation value (similarity score): 0.4985831081867218
+last layer connection: 1.0468370914459229
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 3 predicted class: 8
+logit of the class: -41.295425
+prototype index: 73
+prototype class identity: 8
+activation value (similarity score): 1.5688703060150146
+last layer connection: 1.0275230407714844
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 79
+prototype class identity: 8
+activation value (similarity score): 1.5688703060150146
+last layer connection: 1.0080413818359375
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 71
+prototype class identity: 8
+activation value (similarity score): 1.2054078578948975
+last layer connection: 0.9920316338539124
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 72
+prototype class identity: 8
+activation value (similarity score): 0.5967321991920471
+last layer connection: 0.9992129802703857
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 76
+prototype class identity: 8
+activation value (similarity score): 0.4365318715572357
+last layer connection: 1.036224126815796
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+Prediction is correct.
+*** MOST ACTIVATED Training samples recovered map ***
+{"./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/top-1_training_sample.wav": "../datasets/esc50_split_10/train/9/2-87282-A-34.wav", "./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/top-2_training_sample.wav": "../datasets/esc50_split_10/train/9/1-101404-A-34.wav", "./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/top-3_training_sample.wav": "../datasets/esc50_split_10/train/9/5-237795-A-34.wav", "./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/top-4_training_sample.wav": "../datasets/esc50_split_10/train/9/1-101404-A-34.wav", "./saved_models/vgg19/001_esc50_split_10/2-81112-A-34.wav/most_activated_prototypes/top-5_training_sample.wav": "../datasets/esc50_split_10/train/9/3-147343-A-34.wav"}
+Execution time (minutes): 5.961665181318919

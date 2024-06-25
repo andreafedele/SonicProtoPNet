@@ -1,0 +1,11 @@
+similarity: 0.120
+last layer connection: 1.060
+proto index: 34
+proto connection to class 1:tensor(-0.4305, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 2:tensor(-0.3901, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 3:tensor(-0.3894, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 4:tensor(1.0599, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 5:tensor(-0.4872, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 6:tensor(-0.5617, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 7:tensor(-0.5981, device='cuda:0', grad_fn=<SelectBackward0>)
+proto connection to class 8:tensor(-0.4810, device='cuda:0', grad_fn=<SelectBackward0>)

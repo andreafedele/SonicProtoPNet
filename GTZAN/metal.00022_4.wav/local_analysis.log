@@ -1,0 +1,220 @@
+load model from ./saved_models/vgg19/001_GTZAN_split_10/15_4push0.8303.pth
+model base architecture: vgg19
+experiment run: 001_GTZAN_split_10/
+test image to analyse../datasets/GTZAN_split_10/test/9/metal.00022_4.wav
+Prototypes are chosen from 10 number of classes.
+Their class identities are: [0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3
+ 3 3 3 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 7
+ 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9]
+All prototypes connect most strongly to their respective classes.
+0 (8, 9)
+Predicted: 9
+Actual: 9
+***************************************************************
+***************************************************************
+Most activated 5 prototypes of this image:
+top 1 activated prototype for this image:
+prototype index: 47
+prototype class identity: 5
+activation value (similarity score): 6.456577301025391
+last layer connection with predicted class: -0.5488578081130981
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+top 2 activated prototype for this image:
+prototype index: 85
+prototype class identity: 9
+activation value (similarity score): 5.303589344024658
+last layer connection with predicted class: 0.8943833112716675
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+top 3 activated prototype for this image:
+prototype index: 27
+prototype class identity: 3
+activation value (similarity score): 4.201786994934082
+last layer connection with predicted class: -0.5670558214187622
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+top 4 activated prototype for this image:
+prototype index: 93
+prototype class identity: 10
+activation value (similarity score): 4.1926798820495605
+last layer connection with predicted class: -0.5849995017051697
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+top 5 activated prototype for this image:
+prototype index: 76
+prototype class identity: 8
+activation value (similarity score): 4.072559833526611
+last layer connection with predicted class: -0.5804088711738586
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+***************************************************************
+Prototypes from top-3 classes:
+top 1 predicted class: 9
+logit of the class: -25.868965
+prototype index: 84
+prototype class identity: 9
+activation value (similarity score): 2.4297282695770264
+last layer connection: 0.907668948173523
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 82
+prototype class identity: 9
+activation value (similarity score): 1.9199391603469849
+last layer connection: 0.9003008008003235
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 81
+prototype class identity: 9
+activation value (similarity score): 1.5783416032791138
+last layer connection: 0.9090927839279175
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 80
+prototype class identity: 9
+activation value (similarity score): 0.960411787033081
+last layer connection: 0.9185801148414612
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 88
+prototype class identity: 9
+activation value (similarity score): 0.48573654890060425
+last layer connection: 0.8989574909210205
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 2 predicted class: 5
+logit of the class: -28.485197
+prototype index: 48
+prototype class identity: 5
+activation value (similarity score): 0.5146580934524536
+last layer connection: 0.9409489035606384
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 41
+prototype class identity: 5
+activation value (similarity score): 0.41281944513320923
+last layer connection: 0.9178345203399658
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 43
+prototype class identity: 5
+activation value (similarity score): 0.4061436653137207
+last layer connection: 0.8461757898330688
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 49
+prototype class identity: 5
+activation value (similarity score): 0.3571750223636627
+last layer connection: 0.899323046207428
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 42
+prototype class identity: 5
+activation value (similarity score): 0.27335041761398315
+last layer connection: 0.9272351264953613
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 3 predicted class: 3
+logit of the class: -30.428673
+prototype index: 26
+prototype class identity: 3
+activation value (similarity score): 1.284471869468689
+last layer connection: 0.9188319444656372
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 21
+prototype class identity: 3
+activation value (similarity score): 1.0749011039733887
+last layer connection: 1.0418339967727661
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 24
+prototype class identity: 3
+activation value (similarity score): 0.8118268251419067
+last layer connection: 0.9094860553741455
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 29
+prototype class identity: 3
+activation value (similarity score): 0.7615240216255188
+last layer connection: 1.0241533517837524
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 22
+prototype class identity: 3
+activation value (similarity score): 0.4590061604976654
+last layer connection: 1.0124588012695312
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+Prediction is correct.
+*** MOST ACTIVATED Training samples recovered map ***
+{"./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/top-1_training_sample.wav": "../datasets/GTZAN_split_10/train/5/disco.00025_0.wav", "./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/top-2_training_sample.wav": "../datasets/GTZAN_split_10/train/9/metal.00013_4.wav", "./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/top-3_training_sample.wav": "../datasets/GTZAN_split_10/train/3/rock.00076_2.wav", "./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/top-4_training_sample.wav": "../datasets/GTZAN_split_10/train/10/blues.00071_3.wav", "./saved_models/vgg19/001_GTZAN_split_10/metal.00022_4.wav/most_activated_prototypes/top-5_training_sample.wav": "../datasets/GTZAN_split_10/train/8/country.00001_0.wav"}
+Execution time (minutes): 7.770084722836812

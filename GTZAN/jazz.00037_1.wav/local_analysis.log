@@ -1,0 +1,220 @@
+load model from ./saved_models/vgg19/001_GTZAN_split_10/15_4push0.8303.pth
+model base architecture: vgg19
+experiment run: 001_GTZAN_split_10/
+test image to analyse../datasets/GTZAN_split_10/test/2/jazz.00037_1.wav
+Prototypes are chosen from 10 number of classes.
+Their class identities are: [0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3
+ 3 3 3 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 7
+ 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9]
+All prototypes connect most strongly to their respective classes.
+0 (1, 2)
+Predicted: 2
+Actual: 2
+***************************************************************
+***************************************************************
+Most activated 5 prototypes of this image:
+top 1 activated prototype for this image:
+prototype index: 91
+prototype class identity: 10
+activation value (similarity score): 5.656530380249023
+last layer connection with predicted class: -0.3639523983001709
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+top 2 activated prototype for this image:
+prototype index: 17
+prototype class identity: 2
+activation value (similarity score): 5.440173149108887
+last layer connection with predicted class: 1.10038423538208
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+top 3 activated prototype for this image:
+prototype index: 96
+prototype class identity: 10
+activation value (similarity score): 5.186277389526367
+last layer connection with predicted class: -0.4187834858894348
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+top 4 activated prototype for this image:
+prototype index: 95
+prototype class identity: 10
+activation value (similarity score): 5.186277389526367
+last layer connection with predicted class: -0.35488322377204895
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+top 5 activated prototype for this image:
+prototype index: 94
+prototype class identity: 10
+activation value (similarity score): 5.186277389526367
+last layer connection with predicted class: -0.31571775674819946
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+***************************************************************
+Prototypes from top-3 classes:
+top 1 predicted class: 2
+logit of the class: -20.536068
+prototype index: 10
+prototype class identity: 2
+activation value (similarity score): 1.2034494876861572
+last layer connection: 1.0974260568618774
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 16
+prototype class identity: 2
+activation value (similarity score): 1.1615849733352661
+last layer connection: 1.058666467666626
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 11
+prototype class identity: 2
+activation value (similarity score): 0.7859195470809937
+last layer connection: 1.0752387046813965
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 15
+prototype class identity: 2
+activation value (similarity score): 0.4533240497112274
+last layer connection: 0.9667117595672607
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 12
+prototype class identity: 2
+activation value (similarity score): 0.22573447227478027
+last layer connection: 1.0480509996414185
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 2 predicted class: 10
+logit of the class: -28.899996
+prototype index: 92
+prototype class identity: 10
+activation value (similarity score): 3.4928407669067383
+last layer connection: 0.8420180678367615
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 90
+prototype class identity: 10
+activation value (similarity score): 0.9156969785690308
+last layer connection: 0.7898242473602295
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 98
+prototype class identity: 10
+activation value (similarity score): 0.9156969785690308
+last layer connection: 0.7898242473602295
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 99
+prototype class identity: 10
+activation value (similarity score): 0.5231711864471436
+last layer connection: 0.9767052531242371
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 97
+prototype class identity: 10
+activation value (similarity score): 0.4488584101200104
+last layer connection: 0.9226704835891724
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 3 predicted class: 5
+logit of the class: -41.694096
+prototype index: 44
+prototype class identity: 5
+activation value (similarity score): 0.35565030574798584
+last layer connection: 0.895487904548645
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 43
+prototype class identity: 5
+activation value (similarity score): 0.3207504153251648
+last layer connection: 0.8461757898330688
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 48
+prototype class identity: 5
+activation value (similarity score): 0.2824050784111023
+last layer connection: 0.9409489035606384
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 42
+prototype class identity: 5
+activation value (similarity score): 0.27492186427116394
+last layer connection: 0.9272351264953613
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 49
+prototype class identity: 5
+activation value (similarity score): 0.262938916683197
+last layer connection: 0.899323046207428
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+Prediction is correct.
+*** MOST ACTIVATED Training samples recovered map ***
+{"./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/top-1_training_sample.wav": "../datasets/GTZAN_split_10/train/10/blues.00071_0.wav", "./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/top-2_training_sample.wav": "../datasets/GTZAN_split_10/train/2/jazz.00026_4.wav", "./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/top-3_training_sample.wav": "../datasets/GTZAN_split_10/train/10/blues.00099_0.wav", "./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/top-4_training_sample.wav": "../datasets/GTZAN_split_10/train/10/blues.00099_0.wav", "./saved_models/vgg19/001_GTZAN_split_10/jazz.00037_1.wav/most_activated_prototypes/top-5_training_sample.wav": "../datasets/GTZAN_split_10/train/10/blues.00099_0.wav"}
+Execution time (minutes): 7.924262758096059

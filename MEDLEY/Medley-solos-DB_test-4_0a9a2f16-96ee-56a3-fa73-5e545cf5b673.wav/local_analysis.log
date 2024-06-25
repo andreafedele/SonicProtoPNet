@@ -1,0 +1,220 @@
+load model from ./saved_models/vgg19/001_Medley-solos-DB_split_8/10_4push0.5588.pth
+model base architecture: vgg19
+experiment run: 001_Medley-solos-DB_split_8/
+test image to analyse../datasets/Medley-solos-DB_split_8/test/2/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav
+Prototypes are chosen from 8 number of classes.
+Their class identities are: [0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3
+ 3 3 3 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 7
+ 7 7 7 7 7 7]
+All prototypes connect most strongly to their respective classes.
+0 (1, 2)
+Predicted: 2
+Actual: 2
+***************************************************************
+***************************************************************
+Most activated 5 prototypes of this image:
+top 1 activated prototype for this image:
+prototype index: 18
+prototype class identity: 2
+activation value (similarity score): 4.299252510070801
+last layer connection with predicted class: 1.0921581983566284
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+top 2 activated prototype for this image:
+prototype index: 11
+prototype class identity: 2
+activation value (similarity score): 3.562828540802002
+last layer connection with predicted class: 1.0892908573150635
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+top 3 activated prototype for this image:
+prototype index: 77
+prototype class identity: 8
+activation value (similarity score): 3.0521609783172607
+last layer connection with predicted class: -0.3985981047153473
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+top 4 activated prototype for this image:
+prototype index: 10
+prototype class identity: 2
+activation value (similarity score): 2.6458394527435303
+last layer connection with predicted class: 1.0679229497909546
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+top 5 activated prototype for this image:
+prototype index: 22
+prototype class identity: 3
+activation value (similarity score): 1.9824135303497314
+last layer connection with predicted class: -0.39179232716560364
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+***************************************************************
+Prototypes from top-3 classes:
+top 1 predicted class: 2
+logit of the class: 5.516417
+prototype index: 19
+prototype class identity: 2
+activation value (similarity score): 1.4469228982925415
+last layer connection: 1.0554685592651367
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 16
+prototype class identity: 2
+activation value (similarity score): 0.8482410907745361
+last layer connection: 1.067481279373169
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 12
+prototype class identity: 2
+activation value (similarity score): 0.7339276075363159
+last layer connection: 1.0769387483596802
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 13
+prototype class identity: 2
+activation value (similarity score): 0.6513854265213013
+last layer connection: 1.0630762577056885
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 17
+prototype class identity: 2
+activation value (similarity score): 0.5657920241355896
+last layer connection: 1.0611037015914917
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-1_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 2 predicted class: 3
+logit of the class: -15.645309
+prototype index: 21
+prototype class identity: 3
+activation value (similarity score): 0.13707174360752106
+last layer connection: 1.0689457654953003
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 27
+prototype class identity: 3
+activation value (similarity score): 0.13613532483577728
+last layer connection: 1.0910605192184448
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 25
+prototype class identity: 3
+activation value (similarity score): 0.09180886298418045
+last layer connection: 1.0881482362747192
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 26
+prototype class identity: 3
+activation value (similarity score): 0.08567342162132263
+last layer connection: 1.0853028297424316
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 29
+prototype class identity: 3
+activation value (similarity score): 0.08187838643789291
+last layer connection: 1.0864815711975098
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-2_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+top 3 predicted class: 8
+logit of the class: -16.720287
+prototype index: 73
+prototype class identity: 8
+activation value (similarity score): 0.23101133108139038
+last layer connection: 1.01041579246521
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-1_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-1_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-1_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 71
+prototype class identity: 8
+activation value (similarity score): 0.2286709100008011
+last layer connection: 0.983019232749939
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-2_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-2_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-2_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 76
+prototype class identity: 8
+activation value (similarity score): 0.2277052402496338
+last layer connection: 0.9897639751434326
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-3_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-3_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-3_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 72
+prototype class identity: 8
+activation value (similarity score): 0.21085667610168457
+last layer connection: 1.0018224716186523
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-4_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-4_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-4_prototype_normed.png
+--------------------------------------------------------------
+prototype index: 74
+prototype class identity: 8
+activation value (similarity score): 0.19812344014644623
+last layer connection: 1.0084367990493774
+most highly activated patch of the chosen image by this prototype:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_by_top-5_prototype.png
+most highly activated patch by this prototype shown in the original image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/most_highly_activated_patch_in_original_img_by_top-5_prototype.png
+prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype.png
+normalized prototype activation map of the chosen image:./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/top-3_class_prototypes/prototype_activation_map_by_top-5_prototype_normed.png
+--------------------------------------------------------------
+***************************************************************
+***************************************************************
+Prediction is correct.
+*** MOST ACTIVATED Training samples recovered map ***
+{"./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/top-1_training_sample.wav": "../datasets/Medley-solos-DB_split_8/train/2/Medley-solos-DB_training-4_e101e823-9bec-5670-ff79-2f20d13615da.wav", "./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/top-2_training_sample.wav": "../datasets/Medley-solos-DB_split_8/train/2/Medley-solos-DB_training-4_b8ab1b77-35e4-5b5c-ff57-eac8ba0ae0ca.wav", "./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/top-3_training_sample.wav": "../datasets/Medley-solos-DB_split_8/train/8/Medley-solos-DB_training-5_b3c23953-be94-545b-fd90-72d630e3cb7d.wav", "./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/top-4_training_sample.wav": "../datasets/Medley-solos-DB_split_8/train/2/Medley-solos-DB_training-4_56a326e6-4ff7-51b1-f224-8879326c54f4.wav", "./saved_models/vgg19/001_Medley-solos-DB_split_8/Medley-solos-DB_test-4_0a9a2f16-96ee-56a3-fa73-5e545cf5b673.wav/most_activated_prototypes/top-5_training_sample.wav": "../datasets/Medley-solos-DB_split_8/train/3/Medley-solos-DB_training-2_af1ef7fa-f3b0-56a0-f2cd-70c96f21c131.wav"}
+Execution time (minutes): 10.666204925378164
