@@ -1,5 +1,7 @@
 # SonicProtoPNet
 
+![](sounds.png)
+
 ## SonicProtoPNet folder
 SonicProtoPNet code is provided. 
 Entry point of the whole code is the 'main.py' file, that must be run after proper setting of the 'settings.py' (dataset folders paths, spectrograms conversion params).
